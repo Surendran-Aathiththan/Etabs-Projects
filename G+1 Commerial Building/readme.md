@@ -6,10 +6,10 @@
 
 Made centerline and column placement in AutoCAD and exported as a DXF file. *(Ensure all four sides of each column are joined before exporting.)*
 
-### Define Materials
+## Define Materials
 - **Concrete:** M25
 - **Rebar:** HYSD500
 
-### Define Frame Sections
+## Define Frame Sections
 - **Columns:** C200 × 600 mm
 - **Beams:** B200 × 500 mm
