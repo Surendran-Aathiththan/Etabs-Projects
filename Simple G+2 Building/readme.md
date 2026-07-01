@@ -8,9 +8,9 @@
 <br>
 <br>
 <br>
-Added new materials,  
-Material type:Rebar Name:HYSD415  
-Material type:Concrete Name:M25
+Added new materials,  <br>
+Material type:Rebar Name:HYSD415 <br>  
+Material type:Concrete Name:M25 <br>
 
 Added new Frame Sections,  
 Beam: B250x300
@@ -19,7 +19,7 @@ Column C300x300
 Assign Fixed restraints  
 
 
-**LOADS**
+**LOADS**<br>
 For wall load:  
 Unit weight of bricks: 19 kN/m3
 Total load acting on beam = (19 x 1 x 0.24(thickness) x 3[Height] ) = 14 kN/m
