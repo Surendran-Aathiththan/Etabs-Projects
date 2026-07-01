@@ -9,8 +9,8 @@
 <br>
 
 Added new materials,  <br>
-Material type:Rebar Name:HYSD415 <br>  
-Material type:Concrete Name:M25 <br>
+Material type:Rebar Name:HYSD415<br>
+Material type:Concrete Name:M25<br>
 <br>
 Added new Frame Sections,<br>  
 Beam: B250x300<br>
