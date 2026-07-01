@@ -4,7 +4,7 @@
 <img width="30%" alt="image" src="https://github.com/user-attachments/assets/6cc84d7c-039c-4c97-a035-70562c8c6e2e" />
 <img width="50%" alt="image" src="https://github.com/user-attachments/assets/16eb5e6c-e211-419a-ab1a-e0db73b6a29d" />
 <img width="50%" alt="image" src="https://github.com/user-attachments/assets/91341f4f-4aa6-46cc-8feb-6126260c7ff4" />
-
+<img width="50%" alt="image" src="https://github.com/user-attachments/assets/17890af7-ed70-47a3-a9d4-844a111ebf0b" />
 
 Added new materials,
 Material type:Rebar Name:HYSD415
@@ -27,7 +27,6 @@ For slab load:
 live load=2  , dead load(Slab finish)=1.5
 
 Added a combined load : 1.4DL+1.6LL
-<img width="50%" alt="image" src="https://github.com/user-attachments/assets/17890af7-ed70-47a3-a9d4-844a111ebf0b" />
 
 check model
 analys model
