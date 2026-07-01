@@ -7,15 +7,15 @@
 <img width="30%" alt="image" src="https://github.com/user-attachments/assets/6cc84d7c-039c-4c97-a035-70562c8c6e2e" />
 <br>
 <br>
-<br>
+
 Added new materials,  <br>
 Material type:Rebar Name:HYSD415 <br>  
 Material type:Concrete Name:M25 <br>
 <br>
-Added new Frame Sections,  
-Beam: B250x300
-Column C300x300
-
+Added new Frame Sections,<br>  
+Beam: B250x300<br>
+Column C300x300<br>
+<br>
 Assign Fixed restraints  
 
 
