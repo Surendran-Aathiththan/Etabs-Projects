@@ -41,6 +41,7 @@ Defined the following frame sections:
 \]
 
 **Wall Load = 14 kN/m**
+Applied them on all beams
 
 ### Slab Loads
 
