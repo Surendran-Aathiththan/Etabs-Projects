@@ -4,12 +4,11 @@
 
 
 >Made centerline and columns placement in Autocad and export as dxf file.(Have to make sure columns 4 sites are joined)
->>export as dxt file
-
+>
 >Define Materials,
 >>Concrete:M25
 >>Rebar:HYSD500  
-
+>
 >Define frame Sections
 >>Columns: C200x600  
 >>Beams: B200x500
