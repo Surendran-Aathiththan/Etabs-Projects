@@ -10,27 +10,51 @@
 
 <br><br><br>
 
-### Added new materials,  
-Material type:Rebar Name:HYSD415<br>
-Material type:Concrete Name:M25<br>
+## Material Properties
 
-### Added new Frame Sections,    
-Beam: B250x300<br>
-Column C300x300<br>
+Added the following materials:
 
-### Assign Fixed restraints  
+- **Concrete:** M25
+- **Reinforcement Steel:** HYSD415
 
+## Frame Sections
 
-### LOADS  
-For wall load:  
-Unit weight of bricks: 19 kN/m3
-Total load acting on beam = (19 x 1 x 0.24(thickness) x 3[Height] ) = 14 kN/m
+Defined the following frame sections:
 
-For slab load:  
-live load=2  , dead load(Slab finish)=1.5
+- **Beam:** B250 × 300 mm
+- **Column:** C300 × 300 mm
 
-Added a combined load : 1.4DL+1.6LL
+## Boundary Conditions
 
-checked model  
-analysed model
+- Assigned **Fixed Restraints** to all column base supports.
 
+## Load Calculations
+
+### Wall Load
+
+- Unit weight of brick masonry = **19 kN/m³**
+- Wall thickness = **240 mm**
+- Wall height = **3.0 m**
+
+\[
+\text{Wall Load} = 19 \times 1 \times 0.24 \times 3 = 13.68 \approx 14 \text{ kN/m}
+\]
+
+**Wall Load = 14 kN/m**
+
+### Slab Loads
+
+- **Live Load (LL):** 2.0 kN/m²
+- **Floor Finish (SDL):** 1.5 kN/m²
+
+## Load Combination
+
+Defined the following load combination:
+
+- **1.4DL + 1.6LL**
+
+## Analysis
+
+- ✔ Checked the analytical model.
+- ✔ Verified geometry and connectivity.
+- ✔ Ran structural analysis successfully.
