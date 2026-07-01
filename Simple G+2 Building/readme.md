@@ -11,7 +11,7 @@
 Added new materials,  <br>
 Material type:Rebar Name:HYSD415 <br>  
 Material type:Concrete Name:M25 <br>
-
+<br>
 Added new Frame Sections,  
 Beam: B250x300
 Column C300x300
@@ -29,6 +29,6 @@ live load=2  , dead load(Slab finish)=1.5
 
 Added a combined load : 1.4DL+1.6LL
 
-check model  
-analys model
+checked model  
+analysed model
 
