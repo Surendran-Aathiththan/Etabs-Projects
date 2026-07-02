@@ -36,9 +36,8 @@ Defined the following frame sections:
 - Wall thickness = **240 mm**
 - Wall height = **3.0 m**
 
-\[
-\text{Wall Load} = 19 \times 1 \times 0.24 \times 3 = 13.68 \approx 14 \text{ kN/m}
-\]
+{Wall Load} = 19 x 0.24 x 3 = 14 {kN/m}
+
 
 **Wall Load = 14 kN/m**
 Applied them on all beams
