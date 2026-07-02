@@ -53,8 +53,6 @@ Defined the following load combination:
 
 - **1.4DL + 1.6LL**
 
-## Analysis
+
 
 - ✔ Checked the analytical model.
-- ✔ Verified geometry and connectivity.
-- ✔ Ran structural analysis successfully.
