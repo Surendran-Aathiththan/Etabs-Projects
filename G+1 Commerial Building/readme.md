@@ -7,7 +7,7 @@
 
 <br><br><br>
 
-Made centerline and column placement in AutoCAD and exported as a DXF file. *(Ensure all four sides of each column are joined before exporting.)*
+Made centerline and column in AutoCAD and exported as a DXF file. *(Ensure all four sides of each column are joined before exporting.)*
 
 ## Define Materials
 - **Concrete:** M25
