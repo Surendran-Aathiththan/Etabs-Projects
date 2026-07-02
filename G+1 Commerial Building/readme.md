@@ -17,4 +17,10 @@ Made centerline and column in AutoCAD and exported as a DXF file. *(Ensure all f
 - **Columns:** C200 × 600 mm
 - **Beams:** B200 × 500 mm
 
+## Load Calculations
+- **Wall load:**  type:Super dead Exterior wall: 0.2 x 20 x 2.5 =10   Interior wall: 0.1 x 20 x 2.5 =5  Parapet  wall: 0.1 x 20 x 2 =4
+- Assign > Frame load > Distributed
+  
+- **Roof Live:**  type:Roof Live
+
 
