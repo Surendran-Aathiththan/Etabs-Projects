@@ -8,31 +8,51 @@
 <img width="60%" alt="image" src="https://github.com/user-attachments/assets/311cfc22-91e0-4f29-bf57-63f15a89e361" />
 <img width="60%" alt="image" src="https://github.com/user-attachments/assets/673c1a0a-0d46-4af0-9244-fe488bf264d5" />
 
+<br><br><br>
 
-<br>
-<br>
+## Material Properties
 
-Added new materials,  <br>
-Material type:Rebar Name:HYSD415<br>
-Material type:Concrete Name:M25<br>
-<br>
-Added new Frame Sections,  <br>
-Beam: B250x300<br>
-Column C300x300<br>
-<br>
-Assign Fixed restraints  
+Added the following materials:
+
+- **Concrete:** M25
+- **Reinforcement Steel:** HYSD415
+
+## Frame Sections
+
+Defined the following frame sections:
+
+- **Beam:** B250 × 300 mm
+- **Column:** C300 × 300 mm
+
+## Boundary Conditions
+
+- Assigned **Fixed Restraints** to all column base supports.
+
+## Load Calculations
+
+### Wall Load
+
+- Unit weight of brick masonry = **19 kN/m³**
+- Wall thickness = **240 mm**
+- Wall height = **3.0 m**
+
+{Wall Load} = 19 x 0.24 x 3 = 14 {kN/m}
 
 
-**LOADS**<br>
-For wall load:  
-Unit weight of bricks: 19 kN/m3
-Total load acting on beam = (19 x 1 x 0.24(thickness) x 3[Height] ) = 14 kN/m
+**Wall Load = 14 kN/m**
+Applied them on all beams
 
-For slab load:  
-live load=2  , dead load(Slab finish)=1.5
+### Slab Loads
 
-Added a combined load : 1.4DL+1.6LL
+- **Live Load (LL):** 2.0 kN/m²
+- **Floor Finish (SDL):** 1.5 kN/m²
 
-checked model  
-analysed model
+## Load Combination
 
+Defined the following load combination:
+
+- **1.4DL + 1.6LL**
+
+
+
+- ✔ Checked the analytical model.
