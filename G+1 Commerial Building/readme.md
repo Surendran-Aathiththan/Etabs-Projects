@@ -70,6 +70,8 @@
 
   ## Analysis & Design
   - Run: Design → Concrete Frame Design → Design Check
+    - after beam failed change beam from B 200x500 to B 300x500   , change beam cover distance from 40mm to 30mm
+    - after column failed change column from C 200x600 to C 300x600   , change beam cover distance from 40mm to 30mm
   - For lateral displacement checks: Display → Story Responce Plots
 
   
