@@ -69,6 +69,6 @@ staircase: 0.5
 
 
   
-
+Design > Concrete frame design > design check
 
 
