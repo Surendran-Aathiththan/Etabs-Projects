@@ -20,7 +20,13 @@ Made centerline and column in AutoCAD and exported as a DXF file. *(Ensure all f
 ## Load Calculations
 - **Wall load:**  type:Super dead Exterior wall: 0.2 x 20 x 2.5 =10   Interior wall: 0.1 x 20 x 2.5 =5  Parapet  wall: 0.1 x 20 x 2 =4
 - Assign > Frame load > Distributed
-  
-- **Roof Live:**  type:Roof Live
 
+- **Wall load:** 
+- Ground,1st Floor: Dead Load:3   New load pattern: (Floor Finish + ceiling plaster)  :1.5
+- Roof Floor: Roof Live:3   (Floor Finish + ceiling plaster)  :1
+
+- **Sesmic load:**
+- EQ X+,- and Y+,- : Direction and Eccentrically |
+- Responce reduction facotor(Reduces design forces by relying on the structure's ductility to absorb energy without collapsing.): 3
+- Importance facor(Increases the design earthquake force for critical facilities):1.2
 
