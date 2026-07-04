@@ -6,7 +6,6 @@
 <img width="30%" alt="image" src="https://github.com/user-attachments/assets/daabc4f3-a00f-42e7-9174-d418d117b00b" />
 <img width="30%" alt="image" src="https://github.com/user-attachments/assets/5712f900-c32a-494f-9a1e-75a82f5f57ac" />
 
-
 <br><br><br>
 
 Created the centerline and columns in AutoCAD and exported the model as a DXF file.
