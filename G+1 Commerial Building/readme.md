@@ -4,12 +4,18 @@
 <img width="30%" alt="image" src="https://github.com/user-attachments/assets/52e0d7f8-c3f6-4133-9910-caabbabdd254" />
 <img width="30%" alt="image" src="https://github.com/user-attachments/assets/ab0edfc1-4ab0-4155-8729-33ea84b80a95" />
 <img width="30%" alt="image" src="https://github.com/user-attachments/assets/daabc4f3-a00f-42e7-9174-d418d117b00b" />
+b00b" />
+<img width="30%" src="https://github.com/user-attachments/assets/5712f900-c32a-494f-9a1e-75a82f5f57ac" />
+
 
 <br><br><br>
 
 Created the centerline and columns in AutoCAD and exported the model as a DXF file.
 
 > Ensure all four sides of each column are joined before exporting.
+
+- Used IS code
+
 
 ## Materials
 - **Concrete:** M25
@@ -42,7 +48,10 @@ Created the centerline and columns in AutoCAD and exported the model as a DXF fi
 - Importance factor (I): `1.2` 
    >Increases the design earthquake force for critical facilities
 
-- Assigned Load pattern> Stiarcase load : Live :4 on staircase floor
+
+
+### Wind Load
+- Wind speed Vp :47 ms-1
 
 ### Mass Source
 - Specified load patterns
@@ -52,5 +61,15 @@ Live: 0.25
 staircase: 0.5
 
 - Select all > Assign >Shell > Diapharam
+- Assigned new Load pattern> Stiarcase load: Live :4 on staircase floor
+- Assigned new Load pattern> Lift and watertank load: Super dead :10 on lift floor
+- Select all Floor > Assign >Shell > Floor auto mech > mesh by 2 by 2
+
+### Load Combination
+- Add defeult design combination: Concrete frame design(Editable)
+
+
+  
+
 
 
