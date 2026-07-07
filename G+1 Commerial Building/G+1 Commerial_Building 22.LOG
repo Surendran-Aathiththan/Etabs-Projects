@@ -1,12 +1,12 @@
 
 
- ETABS Ultimate 64-bit 23.2.0 Build 4400 (Analysis Build 10002/64)
- File: E:\Etabs Projects\G+1 Commerial Building\G+1 Commerial_Building.LOG
+ ETABS Ultimate C 64-bit 22.5.0 Build 3917 (Analysis Build 9988/64)
+ File: E:\Etabs Projects\G+1 Commerial Building\G+1 Commerial_Building 22.LOG
 
 
 
 
- B E G I N   A N A L Y S I S                                2026/07/06  17:18:39
+ B E G I N   A N A L Y S I S                                2026/07/06  17:23:54
 
 
  RUNNING ANALYSIS AS A SEPARATE PROCESS
@@ -18,13 +18,13 @@
  NUMBER OF FRAME/TENDON ELEMENTS           =         417
  NUMBER OF SHELL ELEMENTS                  =         116
  NUMBER OF CONSTRAINTS/WELDS               =           7
- NUMBER OF LOAD PATTERNS                   =          32
+ NUMBER OF LOAD PATTERNS                   =          34
  NUMBER OF ACCELERATION LOADS              =          12
- NUMBER OF LOAD CASES                      =          17
+ NUMBER OF LOAD CASES                      =          19
  NUMBER OF MASS SOURCES                    =           1
 
- UNITS (FORCE, LENGTH, TEMPERATURE, TIME)  = N, mm, °C, sec
- GRAVITATIONAL ACCELERATION                =    9806.650
+ UNITS (FORCE, LENGTH, TEMPERATURE, TIME)  = kN, m, °C, sec
+ GRAVITATIONAL ACCELERATION                =    9.806650
 
  ADDRESSABLE PHYSICAL MEMORY (RAM)         =      31.710 GB
 
@@ -39,13 +39,13 @@
  NUMBER OF THREADS: FORM (AUTOMATIC)       =           6
 
 
- E L E M E N T   F O R M A T I O N                                      17:18:39
+ E L E M E N T   F O R M A T I O N                                      17:23:54
 
 
  NUMBER OF COUPLED CONSTRAINT EQUATIONS    =           0
 
 
- L I N E A R   E Q U A T I O N   S O L U T I O N                        17:18:39
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        17:23:54
 
  FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -62,12 +62,12 @@
  ---------------------------------
 
 
- L I N E A R   S T A T I C   C A S E S                                  17:18:39
+ L I N E A R   S T A T I C   C A S E S                                  17:23:54
 
  USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
- TOTAL NUMBER OF CASES TO SOLVE            =           8
- NUMBER OF CASES TO SOLVE PER BLOCK        =           8
+ TOTAL NUMBER OF CASES TO SOLVE            =          10
+ NUMBER OF CASES TO SOLVE PER BLOCK        =          10
 
  LINEAR STATIC CASES TO BE SOLVED:
 
@@ -79,9 +79,11 @@
  CASE: STAIRCASE
  CASE: LIFT AND WATER TANK
  CASE: ~LLRF
+ CASE: ~CHINESEX
+ CASE: ~CHINESEY
 
 
- M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      17:18:39
+ M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      17:23:54
 
  CASE: EQ X-
 
@@ -94,7 +96,7 @@
  NUMBER OF OUTPUT STEPS SAVED              =           2
 
 
- M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      17:18:39
+ M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      17:23:54
 
  CASE: EQ X+
 
@@ -107,7 +109,7 @@
  NUMBER OF OUTPUT STEPS SAVED              =           2
 
 
- M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      17:18:39
+ M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      17:23:54
 
  CASE: EQ Y-
 
@@ -120,7 +122,7 @@
  NUMBER OF OUTPUT STEPS SAVED              =           2
 
 
- M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      17:18:39
+ M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      17:23:54
 
  CASE: EQ Y+
 
@@ -133,7 +135,7 @@
  NUMBER OF OUTPUT STEPS SAVED              =           2
 
 
- M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      17:18:39
+ M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      17:23:54
 
  CASE: WIND X+
 
@@ -146,7 +148,7 @@
  NUMBER OF OUTPUT STEPS SAVED              =           2
 
 
- M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      17:18:39
+ M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      17:23:54
 
  CASE: WIND X-
 
@@ -159,7 +161,7 @@
  NUMBER OF OUTPUT STEPS SAVED              =           2
 
 
- M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      17:18:39
+ M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      17:23:54
 
  CASE: WIND Y+
 
@@ -172,7 +174,7 @@
  NUMBER OF OUTPUT STEPS SAVED              =           2
 
 
- M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      17:18:39
+ M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      17:23:54
 
  CASE: WIND Y-
 
@@ -185,7 +187,7 @@
  NUMBER OF OUTPUT STEPS SAVED              =           2
 
 
- E I G E N   M O D A L   A N A L Y S I S                                17:18:39
+ E I G E N   M O D A L   A N A L Y S I S                                17:23:54
 
  CASE: MODAL
 
@@ -206,34 +208,34 @@
 
  Original stiffness at shift : EV= 0.0000000E+00, f=     .000000, T=  -INFINITY-
  Number of eigenvalues below shift =      0
- Found mode      1 of     12:  EV= 2.3661129E+02, f=    2.448149, T=    0.408472
+ Found mode      1 of     12:  EV= 2.3661128E+02, f=    2.448149, T=    0.408472
  Found mode      2 of     12:  EV= 2.8478797E+02, f=    2.685845, T=    0.372322
  Found mode      3 of     12:  EV= 3.5214561E+02, f=    2.986629, T=    0.334826
  Found mode      4 of     12:  EV= 2.2713489E+03, f=    7.585113, T=    0.131837
  Found mode      5 of     12:  EV= 2.8875429E+03, f=    8.552328, T=    0.116927
- Found mode      6 of     12:  EV= 3.6026578E+03, f=    9.552821, T=    0.104681
- Found mode      7 of     12:  EV= 5.6643742E+03, f=   11.978325, T=    0.083484
- Found mode      8 of     12:  EV= 7.8111980E+03, f=   14.066270, T=    0.071092
- Found mode      9 of     12:  EV= 9.0205393E+03, f=   15.115983, T=    0.066155
+ Found mode      6 of     12:  EV= 3.6026577E+03, f=    9.552821, T=    0.104681
+ Found mode      7 of     12:  EV= 5.6643739E+03, f=   11.978325, T=    0.083484
+ Found mode      8 of     12:  EV= 7.8111978E+03, f=   14.066270, T=    0.071092
+ Found mode      9 of     12:  EV= 9.0205391E+03, f=   15.115982, T=    0.066155
  Found mode     10 of     12:  EV= 1.1248590E+04, f=   16.879873, T=    0.059242
- Found mode     11 of     12:  EV= 1.3232205E+04, f=   18.307803, T=    0.054622
- Found mode     12 of     12:  EV= 1.5898275E+04, f=   20.067586, T=    0.049832
+ Found mode     11 of     12:  EV= 1.3232204E+04, f=   18.307803, T=    0.054622
+ Found mode     12 of     12:  EV= 1.5898274E+04, f=   20.067586, T=    0.049832
 
  NUMBER OF EIGEN MODES FOUND               =          12
  NUMBER OF ITERATIONS PERFORMED            =           6
  NUMBER OF STIFFNESS SHIFTS                =           0
 
 
- A N A L Y S I S   C O M P L E T E                          2026/07/06  17:18:39
+ A N A L Y S I S   C O M P L E T E                          2026/07/06  17:23:54
 
 
- ETABS Ultimate 64-bit 23.2.0 Build 4400 (Analysis Build 10002/64)
- File: E:\Etabs Projects\G+1 Commerial Building\G+1 Commerial_Building.LOG
+ ETABS Ultimate C 64-bit 22.5.0 Build 3917 (Analysis Build 9988/64)
+ File: E:\Etabs Projects\G+1 Commerial Building\G+1 Commerial_Building 22.LOG
 
 
 
 
- B E G I N   A N A L Y S I S                                2026/07/06  17:18:43
+ B E G I N   A N A L Y S I S                                2026/07/06  17:23:57
 
 
  RUNNING ANALYSIS AS A SEPARATE PROCESS
@@ -245,13 +247,13 @@
  NUMBER OF FRAME/TENDON ELEMENTS           =         417
  NUMBER OF SHELL ELEMENTS                  =         116
  NUMBER OF CONSTRAINTS/WELDS               =           7
- NUMBER OF LOAD PATTERNS                   =          32
+ NUMBER OF LOAD PATTERNS                   =          34
  NUMBER OF ACCELERATION LOADS              =          12
- NUMBER OF LOAD CASES                      =          17
+ NUMBER OF LOAD CASES                      =          19
  NUMBER OF MASS SOURCES                    =           1
 
- UNITS (FORCE, LENGTH, TEMPERATURE, TIME)  = N, mm, °C, sec
- GRAVITATIONAL ACCELERATION                =    9806.650
+ UNITS (FORCE, LENGTH, TEMPERATURE, TIME)  = kN, m, °C, sec
+ GRAVITATIONAL ACCELERATION                =    9.806650
 
  ADDRESSABLE PHYSICAL MEMORY (RAM)         =      31.710 GB
 
@@ -266,13 +268,13 @@
  NUMBER OF THREADS: FORM (AUTOMATIC)       =           6
 
 
- E L E M E N T   F O R M A T I O N                                      17:18:43
+ E L E M E N T   F O R M A T I O N                                      17:23:57
 
 
  NUMBER OF COUPLED CONSTRAINT EQUATIONS    =           0
 
 
- L I N E A R   E Q U A T I O N   S O L U T I O N                        17:18:43
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        17:23:57
 
  FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -289,7 +291,7 @@
  ---------------------------------
 
 
- M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      17:18:43
+ M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      17:23:57
 
  CASE: EQ X-
 
@@ -302,7 +304,7 @@
  NUMBER OF OUTPUT STEPS SAVED              =           2
 
 
- M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      17:18:43
+ M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      17:23:57
 
  CASE: EQ X+
 
@@ -315,7 +317,7 @@
  NUMBER OF OUTPUT STEPS SAVED              =           2
 
 
- M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      17:18:43
+ M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      17:23:57
 
  CASE: EQ Y-
 
@@ -328,7 +330,7 @@
  NUMBER OF OUTPUT STEPS SAVED              =           2
 
 
- M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      17:18:43
+ M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      17:23:57
 
  CASE: EQ Y+
 
@@ -341,4 +343,4 @@
  NUMBER OF OUTPUT STEPS SAVED              =           2
 
 
- A N A L Y S I S   C O M P L E T E                          2026/07/06  17:18:43
+ A N A L Y S I S   C O M P L E T E                          2026/07/06  17:23:57
