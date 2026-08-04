@@ -1,0 +1,22 @@
+
+
+ ETABS Ultimate C 64-bit 22.5.0 Build 3917 (Analysis Build 9988/64)             
+ File: E:\Etabs Projects\Steel Truss Bridge\Truss Bridge.OUT                    
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+       3 TO       4    -   -   -   A   A   A
+       5 TO       9    A   A   A   A   A   A
+      11 TO      16    -   -   -   A   A   A
+      17 TO      19    A   A   A   A   A   A
+      20 TO      21    -   -   -   A   A   A
+     ~15 TO     ~68    A   A   A   A   A   A
