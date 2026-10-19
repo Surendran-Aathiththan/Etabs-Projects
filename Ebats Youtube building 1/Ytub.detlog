@@ -1,0 +1,84 @@
+﻿---------------------3/17/2025 11:48:34 PM---------------------
+Could not complete beam detailing.
+Unable to cast object of type 'CSI.DetOAPIHandler.cSteelMaterial' to type 'CSI.DetOAPIHandler.cRebarMaterial'.
+   at CSI.DetGeom.ComponentDesigner.GetRCColumns()
+   at CSI.NABeamDesigner.MultiSpanBeamDesigner.GenerateMultiSpanBeamSets(MultiSpanBeamTower inTower)
+   at CSI.NABeamDesigner.MultiSpanBeamDesigner.GenerateComponents()
+---------------------3/17/2025 11:48:35 PM---------------------
+Could not complete beam detailing.
+Unable to cast object of type 'CSI.DetOAPIHandler.cSteelMaterial' to type 'CSI.DetOAPIHandler.cRebarMaterial'.
+   at CSI.DetGeom.ComponentDesigner.GetRCColumns()
+   at CSI.NABeamDesigner.MultiSpanBeamDesigner.GenerateMultiSpanBeamSets(MultiSpanBeamTower inTower)
+   at CSI.NABeamDesigner.MultiSpanBeamDesigner.GenerateComponents()
+---------------------3/17/2025 11:48:35 PM---------------------
+Could not complete beam detailing.
+Unable to cast object of type 'CSI.DetOAPIHandler.cSteelMaterial' to type 'CSI.DetOAPIHandler.cRebarMaterial'.
+   at CSI.DetGeom.ComponentDesigner.GetRCColumns()
+   at CSI.NABeamDesigner.MultiSpanBeamDesigner.GenerateMultiSpanBeamSets(MultiSpanBeamTower inTower)
+   at CSI.NABeamDesigner.MultiSpanBeamDesigner.GenerateComponents()
+---------------------3/17/2025 11:48:35 PM---------------------
+Could not complete beam detailing.
+Unable to cast object of type 'CSI.DetOAPIHandler.cSteelMaterial' to type 'CSI.DetOAPIHandler.cRebarMaterial'.
+   at CSI.DetGeom.ComponentDesigner.GetRCColumns()
+   at CSI.NABeamDesigner.MultiSpanBeamDesigner.GenerateMultiSpanBeamSets(MultiSpanBeamTower inTower)
+   at CSI.NABeamDesigner.MultiSpanBeamDesigner.GenerateComponents()
+---------------------3/17/2025 11:48:35 PM---------------------
+Could not complete beam detailing.
+Unable to cast object of type 'CSI.DetOAPIHandler.cSteelMaterial' to type 'CSI.DetOAPIHandler.cRebarMaterial'.
+   at CSI.DetGeom.ComponentDesigner.GetRCColumns()
+   at CSI.NABeamDesigner.MultiSpanBeamDesigner.GenerateMultiSpanBeamSets(MultiSpanBeamTower inTower)
+   at CSI.NABeamDesigner.MultiSpanBeamDesigner.GenerateComponents()
+---------------------3/17/2025 11:48:35 PM---------------------
+Could not complete beam detailing.
+Unable to cast object of type 'CSI.DetOAPIHandler.cSteelMaterial' to type 'CSI.DetOAPIHandler.cRebarMaterial'.
+   at CSI.DetGeom.ComponentDesigner.GetRCColumns()
+   at CSI.NABeamDesigner.MultiSpanBeamDesigner.GenerateMultiSpanBeamSets(MultiSpanBeamTower inTower)
+   at CSI.NABeamDesigner.MultiSpanBeamDesigner.GenerateComponents()
+---------------------3/17/2025 11:50:07 PM---------------------
+Could not complete column detailing.
+Unable to cast object of type 'CSI.DetOAPIHandler.cSteelMaterial' to type 'CSI.DetOAPIHandler.cRebarMaterial'.
+   at CSI.DetGeom.ComponentDesigner.GetRCColumns()
+   at CSI.CSiNaColDesigner.ColumnStackDesigner.GenerateColumnStack(RCColumnTower inTower)
+   at CSI.CSiNaColDesigner.ColumnStackDesigner.GenerateComponents()
+---------------------3/17/2025 11:55:45 PM---------------------
+Could not complete beam detailing.
+Unable to cast object of type 'CSI.DetOAPIHandler.cSteelMaterial' to type 'CSI.DetOAPIHandler.cRebarMaterial'.
+   at CSI.DetGeom.ComponentDesigner.GetRCColumns()
+   at CSI.NABeamDesigner.MultiSpanBeamDesigner.GenerateMultiSpanBeamSets(MultiSpanBeamTower inTower)
+   at CSI.NABeamDesigner.MultiSpanBeamDesigner.GenerateComponents()
+---------------------3/17/2025 11:55:45 PM---------------------
+Could not complete beam detailing.
+Unable to cast object of type 'CSI.DetOAPIHandler.cSteelMaterial' to type 'CSI.DetOAPIHandler.cRebarMaterial'.
+   at CSI.DetGeom.ComponentDesigner.GetRCColumns()
+   at CSI.NABeamDesigner.MultiSpanBeamDesigner.GenerateMultiSpanBeamSets(MultiSpanBeamTower inTower)
+   at CSI.NABeamDesigner.MultiSpanBeamDesigner.GenerateComponents()
+---------------------3/17/2025 11:55:45 PM---------------------
+Could not complete beam detailing.
+Unable to cast object of type 'CSI.DetOAPIHandler.cSteelMaterial' to type 'CSI.DetOAPIHandler.cRebarMaterial'.
+   at CSI.DetGeom.ComponentDesigner.GetRCColumns()
+   at CSI.NABeamDesigner.MultiSpanBeamDesigner.GenerateMultiSpanBeamSets(MultiSpanBeamTower inTower)
+   at CSI.NABeamDesigner.MultiSpanBeamDesigner.GenerateComponents()
+---------------------3/17/2025 11:55:45 PM---------------------
+Could not complete beam detailing.
+Unable to cast object of type 'CSI.DetOAPIHandler.cSteelMaterial' to type 'CSI.DetOAPIHandler.cRebarMaterial'.
+   at CSI.DetGeom.ComponentDesigner.GetRCColumns()
+   at CSI.NABeamDesigner.MultiSpanBeamDesigner.GenerateMultiSpanBeamSets(MultiSpanBeamTower inTower)
+   at CSI.NABeamDesigner.MultiSpanBeamDesigner.GenerateComponents()
+---------------------3/17/2025 11:55:45 PM---------------------
+Could not complete beam detailing.
+Unable to cast object of type 'CSI.DetOAPIHandler.cSteelMaterial' to type 'CSI.DetOAPIHandler.cRebarMaterial'.
+   at CSI.DetGeom.ComponentDesigner.GetRCColumns()
+   at CSI.NABeamDesigner.MultiSpanBeamDesigner.GenerateMultiSpanBeamSets(MultiSpanBeamTower inTower)
+   at CSI.NABeamDesigner.MultiSpanBeamDesigner.GenerateComponents()
+---------------------3/17/2025 11:55:45 PM---------------------
+Could not complete beam detailing.
+Unable to cast object of type 'CSI.DetOAPIHandler.cSteelMaterial' to type 'CSI.DetOAPIHandler.cRebarMaterial'.
+   at CSI.DetGeom.ComponentDesigner.GetRCColumns()
+   at CSI.NABeamDesigner.MultiSpanBeamDesigner.GenerateMultiSpanBeamSets(MultiSpanBeamTower inTower)
+   at CSI.NABeamDesigner.MultiSpanBeamDesigner.GenerateComponents()
+---------------------3/17/2025 11:56:14 PM---------------------
+Could not complete column detailing.
+Unable to cast object of type 'CSI.DetOAPIHandler.cSteelMaterial' to type 'CSI.DetOAPIHandler.cRebarMaterial'.
+   at CSI.DetGeom.ComponentDesigner.GetRCColumns()
+   at CSI.CSiNaColDesigner.ColumnStackDesigner.GenerateColumnStack(RCColumnTower inTower)
+   at CSI.CSiNaColDesigner.ColumnStackDesigner.GenerateComponents()

@@ -1,0 +1,201 @@
+File E:\Etabs Projects\Safe\Youtuve_V2016.$sf was saved on 9  6  26 at 15:55:46
+ 
+TABLE:  "ADVANCED MODELING OPTIONS"
+   2DOnly=No   RigDiaTop=No   NoOffsets=Yes
+ 
+TABLE:  "ADVANCED SAPFIRE OPTIONS"
+   SolverOpt=Advanced   ProcessOpt=Auto   Always32Bit=No
+ 
+TABLE:  "AUTOMATIC SLAB MESH OPTIONS"
+   MeshOpt=Rectangular   Localize=Yes   Merge=Yes   MaxSize=1200
+ 
+TABLE:  "BEAM PROPERTIES 01 - GENERAL"
+   Beam=BEAM1   Type=Rectangular   Color=Cyan   GUID=0effbec9-c162-431b-9072-0f3399cde3b5
+ 
+TABLE:  "BEAM PROPERTIES 02 - RECTANGULAR BEAM"
+   Beam=BEAM1   MatProp=CSAC30   Depth=600   WidthTop=300   WidthBot=300
+ 
+TABLE:  "BEAM PROPERTIES 06 - DESIGN DATA"
+   Beam=BEAM1   MatRebarL=CSA-G30.18Gr400   MatRebarS=CSA-G30.18Gr400   FlngWOpt="Analysis Property"   CoverTop=75   CoverBot=75   NoDesign=No
+ 
+TABLE:  "COLUMN PROPERTIES 01 - GENERAL"
+   Column=COL1   Type=Rectangular   Color=Cyan   GUID=a2e76559-ea2a-422d-a806-2f662e4f5b43
+ 
+TABLE:  "COLUMN PROPERTIES 02 - RECTANGULAR"
+   Column=COL1   MatProp=CSAC30   SecDim2=600   SecDim3=300   AutoRigid=No   AutoDrop=No   IncludeCap=No
+ 
+TABLE:  "COORDINATE SYSTEMS"
+   CoordSys=GLOBAL   Type=Cartesian   OriginGx=0   OriginGy=0   RotAngle=0
+ 
+TABLE:  "CRACKING ANALYSIS REINFORCEMENT"
+   ReinfOpt="FE Design"   MinReinfT=0.0018   MinReinfC=0
+ 
+TABLE:  "DESIGN PREFERENCES 01 - RESISTANCE FACTORS"
+   PhiTen=0.9   PhiComp=0.65   PhiShear=0.75
+ 
+TABLE:  "DESIGN PREFERENCES 02 - REBAR COVER - SLABS"
+   CoverTop=15   CoverBot=15   BarSize=18   InnerLayer=B   PTCGSTop=25   PTCGSBotExt=40   PTCGSBotInt=25   SlabType="Two Way"
+ 
+TABLE:  "DESIGN PREFERENCES 03 - REBAR COVER - BEAMS"
+   CoverTop=40   CoverBot=40   BarSizeF=28   BarSizeS=12   PTCGSTop=50   PTCGSBot=50
+ 
+TABLE:  "DESIGN PREFERENCES 04 - PRESTRESS DATA"
+   UserStress=No   InitConcRat=0.8   LLFraction=0.5
+ 
+TABLE:  "GRID LINES"
+   CoordSys=GLOBAL   AxisDir=X   GridID=A   Ordinate=0   Visible=Yes   BubbleLoc=End   GridColor=10461087   BubbleSize=1250   HideAll=No
+   CoordSys=GLOBAL   AxisDir=X   GridID=B   Ordinate=4000   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=X   GridID=C   Ordinate=8000   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=X   GridID=D   Ordinate=12000   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=Y   GridID=1   Ordinate=0   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=Y   GridID=2   Ordinate=4000   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=Y   GridID=3   Ordinate=8000   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=Y   GridID=4   Ordinate=12000   Visible=Yes   BubbleLoc=End
+ 
+TABLE:  "GROUP DEFINITIONS"
+   Group=ALL   Color=Red
+ 
+TABLE:  "LOAD CASES 01 - GENERAL"
+   LoadCase=Dead   Type=LinStatic   DesignOpt=Auto   DesignType=DEAD
+   LoadCase=Live   Type=LinStatic   DesignOpt=Auto   DesignType=LIVE
+   LoadCase="EQ X(1/3)"   Type=LinStatic   DesignOpt=Auto   DesignType=QUAKE
+   LoadCase="EQ X(2/3)"   Type=LinStatic   DesignOpt=Auto   DesignType=QUAKE
+   LoadCase="EQ X(3/3)"   Type=LinStatic   DesignOpt=Auto   DesignType=QUAKE
+   LoadCase="EQ Y"   Type=LinStatic   DesignOpt=Auto   DesignType=QUAKE
+ 
+TABLE:  "LOAD CASES 02 - STATIC"
+   LoadCase=Dead   InitialCond=Zero   AType=Linear
+   LoadCase=Live   InitialCond=Zero   AType=Linear
+   LoadCase="EQ X(1/3)"   InitialCond=Zero   AType=Linear
+   LoadCase="EQ X(2/3)"   InitialCond=Zero   AType=Linear
+   LoadCase="EQ X(3/3)"   InitialCond=Zero   AType=Linear
+   LoadCase="EQ Y"   InitialCond=Zero   AType=Linear
+ 
+TABLE:  "LOAD CASES 06 - LOADS APPLIED"
+   LoadCase=Dead   LoadPat=Dead   SF=1
+   LoadCase=Live   LoadPat=Live   SF=1
+   LoadCase="EQ X(1/3)"   LoadPat="EQ X(1/3)"   SF=1
+   LoadCase="EQ X(2/3)"   LoadPat="EQ X(2/3)"   SF=1
+   LoadCase="EQ X(3/3)"   LoadPat="EQ X(3/3)"   SF=1
+   LoadCase="EQ Y"   LoadPat="EQ Y"   SF=1
+ 
+TABLE:  "LOAD COMBINATIONS"
+   Combo=UDConS1   Load=Dead   SF=1.35   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   Notes=UDConS1   GUID=a05494c5-336b-45ae-981f-633744d29ff0
+   Combo=UDConS10   Load=Dead   SF=1   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   Notes=UDConS10   GUID=8feadfce-bfc6-44c3-adf1-114cf2ea3bbd
+   Combo=UDConS10   Load="EQ Y"   SF=-1
+   Combo=UDConS2   Load=Dead   SF=1.35   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   Notes=UDConS2   GUID=e8a127d7-05b6-4e98-8473-59913add2163
+   Combo=UDConS2   Load=Live   SF=1.5
+   Combo=UDConS3(1/3)   Load=Dead   SF=1   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   Notes=UDConS3   GUID=0638dbc8-faaf-46a5-bcff-4640e3008850
+   Combo=UDConS3(1/3)   Load=Live   SF=0.3
+   Combo=UDConS3(1/3)   Load="EQ X(1/3)"   SF=1
+   Combo=UDConS3(2/3)   Load=Dead   SF=1   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   Notes=UDConS3   GUID=cbbcaef0-84b6-4c12-907a-cd65985f6c9e
+   Combo=UDConS3(2/3)   Load=Live   SF=0.3
+   Combo=UDConS3(2/3)   Load="EQ X(2/3)"   SF=1
+   Combo=UDConS3(3/3)   Load=Dead   SF=1   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   Notes=UDConS3   GUID=30b9a970-c8ca-46a9-ac35-44f7a50e04e8
+   Combo=UDConS3(3/3)   Load=Live   SF=0.3
+   Combo=UDConS3(3/3)   Load="EQ X(3/3)"   SF=1
+   Combo=UDConS4(1/3)   Load=Dead   SF=1   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   Notes=UDConS4   GUID=417d637f-117f-45f4-a3ce-acaeec4f7a03
+   Combo=UDConS4(1/3)   Load=Live   SF=0.3
+   Combo=UDConS4(1/3)   Load="EQ X(1/3)"   SF=-1
+   Combo=UDConS4(2/3)   Load=Dead   SF=1   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   Notes=UDConS4   GUID=1c6220e6-12eb-40a3-ac43-c33930cfe869
+   Combo=UDConS4(2/3)   Load=Live   SF=0.3
+   Combo=UDConS4(2/3)   Load="EQ X(2/3)"   SF=-1
+   Combo=UDConS4(3/3)   Load=Dead   SF=1   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   Notes=UDConS4   GUID=22d73169-6a97-4aa2-a183-87c35c3d40ec
+   Combo=UDConS4(3/3)   Load=Live   SF=0.3
+   Combo=UDConS4(3/3)   Load="EQ X(3/3)"   SF=-1
+   Combo=UDConS5   Load=Dead   SF=1   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   Notes=UDConS5   GUID=3fdff38b-35ef-407f-8176-6c936bec55ac
+   Combo=UDConS5   Load=Live   SF=0.3
+   Combo=UDConS5   Load="EQ Y"   SF=1
+   Combo=UDConS6   Load=Dead   SF=1   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   Notes=UDConS6   GUID=7a6f0a7c-26fa-48af-aaa0-a2e845928e04
+   Combo=UDConS6   Load=Live   SF=0.3
+   Combo=UDConS6   Load="EQ Y"   SF=-1
+   Combo=UDConS7(1/3)   Load=Dead   SF=1   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   Notes=UDConS7   GUID=3fcad8c5-a888-40d1-b4a5-3ed83700f22f
+   Combo=UDConS7(1/3)   Load="EQ X(1/3)"   SF=1
+   Combo=UDConS7(2/3)   Load=Dead   SF=1   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   Notes=UDConS7   GUID=5c5d9458-b329-4dd3-81ae-0383bbf16a9d
+   Combo=UDConS7(2/3)   Load="EQ X(2/3)"   SF=1
+   Combo=UDConS7(3/3)   Load=Dead   SF=1   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   Notes=UDConS7   GUID=b19965c9-ba38-4138-90d6-5e5861d2e366
+   Combo=UDConS7(3/3)   Load="EQ X(3/3)"   SF=1
+   Combo=UDConS8(1/3)   Load=Dead   SF=1   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   Notes=UDConS8   GUID=a730de7c-aebb-4c6f-b3f2-b8008e6de252
+   Combo=UDConS8(1/3)   Load="EQ X(1/3)"   SF=-1
+   Combo=UDConS8(2/3)   Load=Dead   SF=1   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   Notes=UDConS8   GUID=ac6ecd45-07a6-45dc-bf4f-1b36382ac730
+   Combo=UDConS8(2/3)   Load="EQ X(2/3)"   SF=-1
+   Combo=UDConS8(3/3)   Load=Dead   SF=1   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   Notes=UDConS8   GUID=ec62007e-3750-42c9-aecb-4f49450d2b82
+   Combo=UDConS8(3/3)   Load="EQ X(3/3)"   SF=-1
+   Combo=UDConS9   Load=Dead   SF=1   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   Notes=UDConS9   GUID=44ed8970-40a2-4a47-a252-0563da67e0ec
+   Combo=UDConS9   Load="EQ Y"   SF=1
+ 
+TABLE:  "LOAD PATTERNS"
+   LoadPat=Dead   Type=DEAD   SelfWtMult=1   GUID=58cbccee-b6e1-46ca-9210-4a1583f6f1fc
+   LoadPat=Live   Type=LIVE   SelfWtMult=0   GUID=f6696fa0-2328-4973-9f7b-48218af978e2
+   LoadPat="EQ Y"   Type=QUAKE   SelfWtMult=0   GUID=c37a0da8-2161-4e78-9f12-b58557dc35bc
+   LoadPat="EQ X(1/3)"   Type=QUAKE   SelfWtMult=0   GUID=54c191a9-46e0-4be2-9263-4dd582808fc8
+   LoadPat="EQ X(2/3)"   Type=QUAKE   SelfWtMult=0   GUID=cd0833e5-6d0f-42fa-8475-e071b3181cfd
+   LoadPat="EQ X(3/3)"   Type=QUAKE   SelfWtMult=0   GUID=f36f7e8a-95ed-4ed0-bbde-0fefd0de4e24
+ 
+TABLE:  "MATERIAL PROPERTIES 01 - GENERAL"
+   Material=A416MGr186   Type=Tendon   Color=Magenta   Notes="ASTM A416 Metric Grade 186 added Sun  9  6  2026  3:55:46 PM"
+   Material=CSA-G30.18Gr400   Type=Rebar   Color=Cyan   Notes="CSA-G30.18 Grade 400 added Sun  9  6  2026  3:55:46 PM"
+   Material=CSAC30   Type=Concrete   Color=Blue   Notes="Normalweight C30 added Sun  9  6  2026  3:55:46 PM"
+ 
+TABLE:  "MATERIAL PROPERTIES 03 - CONCRETE"
+   Material=CSAC30   E=26667.312337931   U=0.2   A=9.9E-06   UnitWt=2.3563121614979E-05   Fc=30   LtWtConc=No   UserModRup=No
+ 
+TABLE:  "MATERIAL PROPERTIES 04 - REBAR"
+   Material=CSA-G30.18Gr400   E=200000   UnitWt=7.69728639422648E-05   Fy=400   Fu=500
+ 
+TABLE:  "MATERIAL PROPERTIES 05 - TENDON"
+   Material=A416MGr186   E=196500.5998512   UnitWt=7.69728639422648E-05   Fy=1690   Fu=1860
+ 
+TABLE:  "PROGRAM CONTROL"
+   ProgramName="SAFE 2016"   Version=16.0.2   CurrUnits="N, mm, C"   MergeTol=2.5   ModelDatum=0   StHtAbove=0   StHtBelow=0   ConcCode="ACI 318-14"
+ 
+TABLE:  "PROJECT INFORMATION"
+   Item="Client Name"   Data=Aathi
+   Item="Project Name"   Data=Youtuve
+   Item="Project Number"
+   Item="Company Name"
+   Item=Engineer
+   Item=Checker
+   Item=Supervisor
+   Item="Model Name"
+   Item="Model Description"
+   Item="Revision Number"
+   Item="Issue Number"
+ 
+TABLE:  "REINFORCING BAR SIZES"
+   RebarID=6   Area=28.2999992370605   Diameter=6
+   RebarID=8   Area=50.2999992370605   Diameter=8
+   RebarID=10   Area=78.5   Diameter=10
+   RebarID=12   Area=113.099998474121   Diameter=12
+   RebarID=14   Area=153.899993896484   Diameter=14
+   RebarID=16   Area=201.100006103516   Diameter=16
+   RebarID=18   Area=254.5   Diameter=18
+   RebarID=20   Area=314.200012207031   Diameter=20
+   RebarID=22   Area=380.100006103516   Diameter=22
+   RebarID=25   Area=490.899993896484   Diameter=25
+   RebarID=26   Area=530.900024414063   Diameter=26
+   RebarID=28   Area=615.799987792969   Diameter=28
+   RebarID=32   Area=804.200012207031   Diameter=32
+   RebarID=36   Area=1017.90002441406   Diameter=36
+   RebarID=40   Area=1256.59997558594   Diameter=40
+   RebarID=50   Area=1963.5   Diameter=50
+ 
+TABLE:  "SLAB PROPERTIES 01 - GENERAL"
+   Slab=SLAB1   Type=Slab   ThickPlate=Yes   Color=Blue   GUID=bb38a880-758c-4349-b0bd-924e81c6bfd2
+ 
+TABLE:  "SLAB PROPERTIES 02 - SOLID SLABS"
+   Slab=SLAB1   Type=Slab   MatProp=CSAC30   Thickness=200   Ortho=No
+ 
+TABLE:  "SOIL PROPERTIES"
+   Soil=SOIL1   Subgrade=0.02   NonlinOpt="Compression Only"   Color=Cyan
+ 
+TABLE:  "SPRING PROPERTIES - LINE"
+   Spring=LSPR1   VertStiff=1   RotStiff=1   NonlinOpt="None (Linear)"   Color=Yellow
+ 
+TABLE:  "SPRING PROPERTIES - POINT"
+   Spring=PSPR1   Ux=0   Uy=0   Uz=1   Rx=0   Ry=0   Rz=0   NonlinOpt="None (Linear)"   Color=Blue
+ 
+TABLE:  "WALL PROPERTIES"
+   Wall=WALL1   MatProp=CSAC30   Thickness=300   AutoRigid=No   OutOfPlane=Yes   Color=Magenta   GUID=2ce11b5c-a677-4f36-a444-c885b7084e24
+ 
+END TABLE DATA
