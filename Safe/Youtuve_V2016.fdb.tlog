@@ -1,8 +1,0 @@
-﻿Index was outside the bounds of the array.
-   at CSI.SAFE.cFileIO_SAFEModel.h()
-   at CSI.SAFE.cFileIO_SAFEModel.j()
-   at CSI.SAFE.cFileIO_SAFEModel.b(String A_0)
-   at CSI.SAFE.cFileIO_SAFEModel.a.a(String A_0, Boolean& A_1, Boolean A_2, Boolean& A_3)
-   at CSI.SAFE.cFileIO_SAFEModel.ReadOldModel(Boolean old, Boolean& ReadEtabsModel)
-   at CSI.SAFE.cFileIO_SAFEModel.OpenSAFEModelFile(Boolean& ReadETABSModel)
-   at atc.ch(String A_0)

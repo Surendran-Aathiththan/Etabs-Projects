@@ -1,7 +1,12 @@
-  # Udemy
+# Udemy 01: ETABS Course Model and Design Notes
 
+A course model (`Udemy 01.EDB`) with my study notes on concrete material properties and preliminary member sizing.
 
-Cement M20: weight per unit volume: 25kN/m3  = 2548 kg/m3
+**Status:** 🟡 Learning model. Reinforcement design is not yet done.
+
+## Notes
+
+Concrete M20: weight per unit volume 25 kN/m³ (≈ 2548 kg/m³)
 modulus of elasticity E = 5000√Fc = 5000√20 = 22360.68
 Fc= Compressive strength of concrete in MPa 
 
